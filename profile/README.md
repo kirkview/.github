@@ -13,18 +13,21 @@ Whether you are a member of the community that would like to get involved in our
 looking to learn more about the Kirkview community, you can find out everything [on our website][kirkview].
 
 <details>
-    <summary>License Details</summary>
-    <br>
-
-    All contributions contained in this organization are proprietary and the intellectual property of the Kirkview
-    Homeowners Association, Inc. All contributions, regardless of source, fall within these terms:
-    <br>
-    
-    Copyright &copy; 2023 Kirkview Homeowners Association, Inc.
-    All Rights Reserved.
+<summary>Contributor Resources</summary>
+- [Kirkview.org][kirkview]
+- [Code of Conduct][code-of-conduct]
+- [Contribution Guidelines][contributing-policy]
+- [Proprietary License][license]
+- [Security Policies][security-policy]
+- [Support][support-policy]
 </details>
 
+<!-- Link References -->
 
-
-[kirkview]:      https://kirkview.org
-[kirkview-logo]: profile/img/profile-hero.png
+[code-of-conduct]:     .github/CODE_OF_CONDUCT.md
+[contributing-policy]: .github/CONTRIBUTING.md
+[kirkview]:            https://kirkview.org
+[kirkview-logo]:       profile/img/profile-hero.png
+[license]:             .github/LICENSE
+[security-policy]:     .github/SECURITY.md
+[support-policy]:      .github/SUPPORT.md
