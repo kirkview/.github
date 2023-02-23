@@ -1,0 +1,47 @@
+{
+  "projectName": ".github",
+  "projectOwner": "kirkview",
+
+  "repoType": "github",
+  "repoHost": "https://github.com",
+
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+
+  "imageSize": 100,
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false,
+
+  "skipCi": true,
+
+  "contributors": [
+    {
+      "login": "andrewvaughan",
+      "name": "Andrew Vaughan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1119590",
+      "profile": "https://github.com/andrewvaughan",
+      "contributions": [
+        "bug",
+        "business",
+        "code",
+        "content",
+        "doc",
+        "design",
+        "eventOrganizing",
+        "financial",
+        "ideas",
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "question",
+        "review",
+        "security",
+        "tool",
+        "test",
+        "userTesting"
+      ]
+    }
+  ]
+}

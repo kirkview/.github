@@ -21,7 +21,7 @@ trim_trailing_whitespace = true
 max_line_length = 120
 
 
-### Makefiles require tabs
+### Makefile requires tabs
 [Makefile]
 indent_style = tab
 indent_size = 4

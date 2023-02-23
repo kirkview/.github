@@ -11,3 +11,6 @@
 # Generated files
 *.retry
 *.html
+
+# Mega-linter
+megalinter-reports/
