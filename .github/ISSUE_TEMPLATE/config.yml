@@ -1,0 +1,31 @@
+########################################################################################################################
+# Configuration for GitHub template chooser, as documented here:
+#
+# @link https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+#
+---
+
+# Force the use of the provided templates (not a blank form)
+blank_issues_enabled: false
+
+
+# Various contact links for reaching out to Kirkview members on other subjects:
+contact_links:
+
+  - name: Critical Support Request
+    url: mailto:support@kirkview.org?subject=CRITICAL%20Support%20Request
+    about: |
+      Please alert us to any critical issues with platforms (e.g., outages, apparent hacks, etc.) through this email
+      rather than through a GitHub issue. This will ensure we respond to it as quickly as possible. You may also use
+      your directory to reach out to the IT committee directly.
+
+  - name: Kirkview IT Support
+    url: mailto:support@kirkview.org?subject=Question%20from%2GitHub
+    about: |
+      Please email the Kirkview support organization for any questions you might have regarding non-development related
+      and/or non-operational technical questions.
+
+  - name: General Kirkview HOA Questions
+    url: mailto:help@kirkview.org?subject=Question%20for%20the%20Kirkview%20HOA
+    about: |
+      Please direct any non-technical, non-development related questions about the Kirkview HOA to this email address.
