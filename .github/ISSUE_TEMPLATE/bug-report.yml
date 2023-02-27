@@ -1,7 +1,8 @@
 ########################################################################################################################
 # Configuration for the Bug Report issue template available for all Kirkview GitHub repositories.
 #
-# @link https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+# @link https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository # editorconfig-checker-disable-line
+#
 #
 ---
 name: Bug Report
@@ -26,6 +27,9 @@ body:
   #
   # Severity
   #
+
+  # editorconfig-checker-disable
+
   - type: dropdown
     id: severity
     attributes:
@@ -47,6 +51,8 @@ body:
         - (S5) Trivial
     validations:
       required: true
+
+  # editorconfig-checker-disable
 
 
   #
