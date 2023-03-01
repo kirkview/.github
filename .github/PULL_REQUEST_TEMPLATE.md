@@ -40,11 +40,11 @@ _You must actually check these boxes for this PR to move into a review state._
 
 ## Backwards Compatibility
 
-The changes from this request are:
+The changes from this request are (choose one, delete the others):
 
-- [ ] Backward compatible with the current minor version (e.g., `1.1.x`)
-- [ ] Backward compatible with the current major version (e.g., `1.x.x`)
-- [ ] Not backward compatible at all (a breaking change)
+* Backward compatible with the current minor version (e.g., `1.1.x`)
+* Backward compatible with the current major version (e.g., `1.x.x`)
+* Not backward compatible at all (a breaking change)
 
 ## Other Information
 
