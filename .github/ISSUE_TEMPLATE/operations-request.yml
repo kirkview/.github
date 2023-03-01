@@ -12,6 +12,7 @@ title: "Ops Request: "
 
 labels:
   - "Request: DevOps"
+  - "Priority: 03-Normal"
   - "Status: 01-Pending"
 
 body:

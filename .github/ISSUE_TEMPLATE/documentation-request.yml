@@ -12,6 +12,7 @@ title: "Documentation Request: "
 
 labels:
   - "Request: Documentation"
+  - "Priority: 03-Normal"
   - "Status: 01-Pending"
 
 body:

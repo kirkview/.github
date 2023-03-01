@@ -13,6 +13,7 @@ title: "Bug Report: "
 
 labels:
   - "Request: Bug Fix"
+  - "Priority: 03-Normal"
   - "Status: 01-Pending"
 
 body:
