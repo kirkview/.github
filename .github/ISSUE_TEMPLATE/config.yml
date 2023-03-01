@@ -3,6 +3,8 @@
 #
 # @link https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser # editorconfig-checker-disable-line
 #
+# Note that all `mailto:` URLs must be shortened to work with GitHub. We use mailxto.com for this.
+#
 ---
 
 # Force the use of the provided templates (not a blank form)
@@ -13,19 +15,19 @@ blank_issues_enabled: false
 contact_links:
 
   - name: Critical Support Request
-    url: mailto:support@kirkview.org?subject=CRITICAL%20Support%20Request
+    url: https://mailxto.com/cbtn5ozhri
     about: |
       Please alert us to any critical issues with platforms (e.g., outages, apparent hacks, etc.) through this email
       rather than through a GitHub issue. This will ensure we respond to it as quickly as possible. You may also use
       your directory to reach out to the IT committee directly.
 
   - name: Kirkview IT Support
-    url: mailto:support@kirkview.org?subject=Question%20from%2GitHub
+    url: https://mailxto.com/1p5klfc63e
     about: |
       Please email the Kirkview support organization for any questions you might have regarding non-development related
       and/or non-operational technical questions.
 
   - name: General Kirkview HOA Questions
-    url: mailto:help@kirkview.org?subject=Question%20for%20the%20Kirkview%20HOA
+    url: https://mailxto.com/oap70lbtrj
     about: |
       Please direct any non-technical, non-development related questions about the Kirkview HOA to this email address.
