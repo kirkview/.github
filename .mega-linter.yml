@@ -9,7 +9,7 @@ LINTER_RULES_PATH: .
 PRINT_ALPACA: false
 SHOW_ELAPSED_TIME: true
 SHOW_SKIPPED_LINTERS: false
-VALIDATE_ALL_CODEBASE: true
+#VALIDATE_ALL_CODEBASE: false   # For some reason, this fails in v6 of ML (?)
 
 ENABLE:
   #- ACTION     # An unknown shell check error is causing failures here - re-enable later
