@@ -43,11 +43,13 @@ jobs:
         # More info at https://megalinter.io/flavors/
         uses: oxsecurity/megalinter@v6
         env:
-          # All available variables are described in documentation
-          # https://megalinter.io/configuration/
-          # Set ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }} to validate only diff with main
-          # branch
-          VALIDATE_ALL_CODEBASE: true
+          # All available variables are described in documentation https://megalinter.io/configuration/
+          # Only validate full codebase on main/develop push
+          VALIDATE_ALL_CODEBASE: |
+            ${{
+              github.event_name == 'push'
+              && ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' )
+            }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # ADD YOUR CUSTOM ENV VARIABLES HERE TO OVERRIDE VALUES OF .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
 
